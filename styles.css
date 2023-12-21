@@ -1,0 +1,170 @@
+@font-face {
+    src: url("fonts/Sonsie_One/SonsieOne-Regular.ttf");
+    font-family: SonsieOne;
+}
+
+@font-face {
+    src: url("fonts/Paytone_One/PaytoneOne-Regular.ttf");
+    font-family: PaytoneOne;
+}
+
+@font-face {
+    src: url("fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+    font-family: NunitoSans;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/slice.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    width: 70vmax;
+    margin-top: 5%;
+    margin-left: 8%;
+
+}
+
+#name-text {
+    color: #CDBBFD;
+    font-family: PaytoneOne;
+    font-size: 2vmax;
+}
+#title-text {
+    margin-top: 6%;
+    color: #FEA32A;
+    font-family: SonsieOne;
+    font-size: 4vmax;
+}
+
+.title-btn {
+    color: #fff;
+    font-family: PaytoneOne;
+    font-size: 1.7vmax;
+    border: 1px solid #FEA32A;
+    border-radius: 50px;
+    background: #FEA32A;
+    padding: 1vmax 4vmax;
+    margin-top: 3vmax;
+}
+
+
+
+
+
+.content {
+    margin: 2vmax;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sub-title {
+    text-align: center;
+    color: #CDBBFD;
+    border-bottom: 0.6vmax solid #FEA32A;
+    padding-bottom: 0.7vmax;
+
+    font-family: PaytoneOne;
+    font-size: 5vmax;
+    margin-bottom: 3vmax;
+}
+
+.card {
+    margin: 3vmax;
+    display: flex;
+    width: 65vmax;
+    height: fit-content;
+    border: 0px solid #F6F6E8;
+    background-color: #F6F6E8;
+    border-radius: 1.7vmax;
+    box-shadow: 0.8vmax 0.3vmax 15px lightgrey;
+}
+
+
+.content-text {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    width: 50%;
+    text-align: start;
+    margin-left: 7.6vmax;
+    margin-right: 3vmax;
+    margin-top: 2vmax;
+}
+
+.card-title {
+    color: #A08ADB;
+    font-family: NunitoSans;
+    font-size: 2.7vmax;
+}
+
+.card-content {
+    color: #828282;
+    font-family: NunitoSans;
+    font-size: 1vmax;
+    line-height: 1.8vmax;
+}
+
+.card-btn {
+    color: #fff;
+    font-family: PaytoneOne;
+    font-size: 1.5vmax;
+    width: 14.5vmax;
+    height: 3.5vmax;   
+    border: 1px solid #FEA32A;
+    border-radius: 1.6vmax;
+    background: #FEA32A;
+    margin-top: 2.5vmax;
+}
+
+.illustration {
+    width: 50%;
+    height: fit-content;
+    border-top-right-radius: 1.7vmax;
+    border-bottom-right-radius: 1.7vmax;
+
+}
+
+#illustration2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 1.7vmax;
+    border-bottom-left-radius: 1.7vmax;
+}
+
+#card2 {
+    background-color: #C5CA65;
+}
+
+#card-title2 {
+    color: #6A6A6A;
+}
+
+#card-title3 {
+    color: #5EAD48;
+}
+
+#end-button {
+    margin-bottom: 3vmax;
+}
+
+#sub-title2 {
+    color: #fff;
+    border: none;
+    margin-top: 10vmax;
+}
